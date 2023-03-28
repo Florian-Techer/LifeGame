@@ -5,7 +5,7 @@ function setDevice(){
   let DIM_WIDTH;
 
   if(screen.width < 601){
-    DIM_HEIGHT = Math.round((screen.height - (Math.round((screen.height * 25) / 100)))/5)//Math.round((screen.height - (Math.round((screen.height * 20) / 100)))/10) //Math.round(screen.height - (Math.round((screen.height * 20) / 100)));
+    DIM_HEIGHT = Math.round((screen.height - (Math.round((screen.height * 30) / 100)))/5)//Math.round((screen.height - (Math.round((screen.height * 20) / 100)))/10) //Math.round(screen.height - (Math.round((screen.height * 20) / 100)));
     DIM_WIDTH = Math.round((screen.width - (Math.round((screen.width * 20) / 100)))/5);
   }else{
     DIM_HEIGHT = 50;
