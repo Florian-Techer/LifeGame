@@ -94,8 +94,11 @@ button {
 
 /* =========== MEDIA QUERY SMALL =========== */
 @media screen and (max-width: 600px) {
+	body{
+		max-height: 100vh;
+	}
 	h1{
-		margin-top: 2.5rem;
+		margin-top: 2rem;
 	}
     td{
 		width: 5px;
@@ -109,6 +112,6 @@ button {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 		gap: 0.7rem;
-		margin-bottom: 3rem;
+		margin-bottom: 2rem;
 	}
 }
