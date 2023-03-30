@@ -98,7 +98,7 @@ button {
 		max-height: 100vh;
 	}
 	h1{
-		margin-top: 2rem;
+		margin-top: 0.5rem;
 	}
     td{
 		width: 5px;
@@ -112,6 +112,6 @@ button {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 		gap: 0.7rem;
-		margin-bottom: 2rem;
+		margin-bottom: 0.5rem;
 	}
 }
